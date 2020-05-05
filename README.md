@@ -2,6 +2,8 @@
 
 A modern minimalist admin dashboard made with Angular with Dry SCSS approach without using any CSS framework.
 
+![](src/assets/images/admin-dashboard.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
