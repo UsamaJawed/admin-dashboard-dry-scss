@@ -1,4 +1,4 @@
-# AdminDashboardDryScss
+# Admin Dashboard with Dry Scss
 
 A modern minimalist admin dashboard made with Angular with Dry SCSS approach without using any CSS framework.
 
