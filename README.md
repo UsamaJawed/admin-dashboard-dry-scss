@@ -1,6 +1,6 @@
 # Admin Dashboard with Dry Scss
 
-A modern minimalist admin dashboard made with Angular with Dry SCSS approach without using any CSS framework.
+A modern minimalist admin dashboard made with Angular with Dry SCSS approach without using any CSS framework. The design is created by [Anton Avilov](https://dribbble.com/avilov), he is an absolutely amazing designer. All the rights to the design belongs to him and I am just a curious person who wants to showcase skills using his designs. You should definitely check out his dribbble profile.
 
 ![](src/assets/images/admin-dashboard.png)
 
