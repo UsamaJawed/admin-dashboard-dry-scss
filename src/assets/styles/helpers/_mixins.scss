@@ -1,0 +1,29 @@
+@import 'variables.scss';
+
+@mixin set_flex($display, $flex-direction:"", $align-items:"",$justify-content:""){
+    display: $display;
+    @if ($flex-direction != "") {
+        flex-direction: $flex-direction;
+    }
+    @if ($align-items != "") {
+        align-items: $align-items;
+    }
+    @if ($justify-content != "") {
+        justify-content: $justify-content;
+    }
+}
+
+@mixin set_position($position, $z-index:"", $top:"", $bottom:"", $left:"", $right:"", $unit:""){
+    $dimensions: ('top': $top, 'bottom': $bottom, 'left': $left, 'right': $right);
+    
+    position: $position;
+    @if ($z-index != ""){
+        z-index: $z-index;
+    }
+    @each $key, $value in $dimensions {
+        @if ($value != ""){
+            #{unquote($key)}: #{$value} + #{unquote($default-unit)};
+        }
+    }
+
+}

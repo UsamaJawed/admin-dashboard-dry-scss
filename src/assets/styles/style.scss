@@ -1,6 +1,14 @@
 @import 'helpers/variables.scss';
+@import 'helpers/mixins';
 
 body{
-    background:#348F6C;
+    background-color: $background-color;
     font-family: $font-family ;
+}
+
+.app-body{
+    background-color: #ffffff;
+    border-radius: 20px;
+    min-height: 97vh;
+    margin-left: $sidebar-width;
 }
