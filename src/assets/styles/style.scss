@@ -12,3 +12,24 @@ body{
     min-height: 97vh;
     margin-left: $sidebar-width;
 }
+
+.app-sidebar-container{
+    width: $sidebar-width;
+    float: left;
+    @include set_position(fixed, 100, 0,0,0,"","");
+    .app-sidebar{
+        max-width: $sidebar-width;
+        .navigation-logo{
+            border-bottom: 1px solid $navigation-item-color; 
+        }
+        .navigation-list{
+            list-style: none;
+            padding-left: 0px;
+            border-bottom: 1px solid $navigation-item-color;
+            .navigation-list-item{
+                padding: 10px 10px;
+                color:$navigation-item-color;
+            }
+        }
+    }
+}
